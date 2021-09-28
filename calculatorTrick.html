@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<link rel="stylesheet" href="calculatorTrick.css">
+</head>
+
+<body>
+
+<div id="main">
+    <div id="instructions">
+        <h1 id="steplist">First, type in any single digit number on your calculator</h1>
+        <button id="stepButton">Next Step!</button>
+    </div>
+    
+    <div id="numDigitsInput">
+    <form>
+    <input id = "textDigitsInput" type="text" placeholder="Enter How Many Digits">
+    <input type="submit" id="submitDigitsInput">
+    </form>
+    </div>
+
+    <div id="inputBoxes">
+        <form>
+            <input id="num1" class = "miniTextbox" type="text">
+            <input id="num2" class="miniTextbox" type="text">
+            <input id="num3" class="miniTextbox" type="text">
+            <input id="num4" class="miniTextbox" type="text">
+            <input id="num5" class="miniTextbox" type="text">
+            <input id="num6" class="miniTextbox" type="text">
+            <input id="num7" class="miniTextbox" type="text">
+            <input id="num8" class="miniTextbox" type="text">
+            <input type="submit" id="inputBoxesSubmit">
+        </form>
+    </div>
+
+    <div id="yesno">
+        <button id = "yesButton" class="yesnobutton">Yes</button>
+        <button id = "noButton" class="yesnobutton">No</button>
+    </div>
+
+    
+    <p id="errormessage"></p>
+
+
+</div>
+
+<script type="text/javascript" src="calculatorTrick.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,93 @@
+*{
+    margin:0;
+    border:0;
+    padding:0;
+    background-color:orange;
+}
+
+#instructions{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    text-align:center;
+
+    position:relative;
+    top:200px;
+}
+
+#stepButton{
+    position:relative;
+    left:10px;
+    width:100px;
+    height:40px;
+    background-color:rgb(125, 125, 146);
+    color:black;
+    border-radius:20px;
+    cursor:pointer;
+}
+
+#numDigitsInput{
+   position:relative;
+   top:220px;
+   display:none;
+
+   text-align:center;
+}
+
+#textDigitsInput{
+    border:1px solid;
+    border-radius:5px;
+}
+
+.show{
+    display:block;
+}
+
+.hide{
+    display:none;
+}
+
+#inputBoxes{
+    display:flex;
+
+    position:relative;
+    top:220px;
+    text-align:center;
+    display:none;
+}
+
+.miniTextbox{
+    width:40px;
+    height:40px;
+    border: 1px solid;
+}
+
+#yesno{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    position:relative;
+    top:220px;
+    display:none;
+}
+
+.yesnobutton{
+    width:50px;
+    height:50px;
+    background-color:rgb(92, 163, 180);
+    border-radius:10px;
+    cursor:pointer;
+}
+
+#noButton{
+    margin-left: 20px;
+}
+
+#errormessage{
+    font-size:25px;
+    color:rgb(189, 69, 69);
+    text-align:center;
+    position:relative;
+    top:240px;
+}
